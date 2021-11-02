@@ -1,0 +1,259 @@
+
+
+
+
+
+
+/*CUERPO*/
+body{
+
+  /*margin-left: auto;
+  margin-right: auto;*/
+  color: #fff;
+}
+
+/* HEADER*/
+header{
+  display: flex;
+  background-color: #00AAB5 ;
+  justify-content: space-between;
+
+}
+h1{
+
+  font-weight: bold;
+    list-style-type: none;
+
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    padding: 4.5px;
+
+
+
+}
+
+/*SECCIONES*/
+section h2{
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+/* BARRA DE NAVEGACION*/
+
+
+nav li{
+  display: inline;
+}
+
+
+nav a{
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 1px 10px 1px;
+  padding: 15px;
+  display: inline-block;
+  font-size: 14px;
+  position: left;
+}
+nav a:hover{
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+/*box1*/
+.box1{
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.box1 img{
+  width: 100%;
+}
+.box1 div{
+  position:absolute;
+  color: #fff;
+}
+.box1 .codigo{
+  font-weight: bold;
+  font-size: 64px;
+  top: 8%;
+  left: 45%;
+}
+.box1 .nombre{
+  background-color: rgba(114, 153, 254, 0.5);
+  width: 300px ;
+  height: 80px;
+  font-size: 36px ;
+  padding: 20px;
+  bottom: 95px;
+  left: 80px;
+}
+
+/*SKILLS*/
+/*margenes*/
+.skills .margin{
+  margin: 10px;
+  width: 100%;
+}
+.skills{
+  background-color: #7299FE ;
+  margin-top: 0;
+  height: auto;
+  padding-bottom: 50px;
+}
+/*SKILLS TITULO*/
+.skills h2{
+  color: #B508A3;
+}
+.box2{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap:20px;
+  flex-wrap: wrap;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.box2 .margin{
+  display: grid;
+}
+.skills .html{
+  display: flex;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.skills .black{
+  width: 80%;
+  height: 18px;
+  background-color: #000;
+}
+.skills .white{
+  width: 20%;
+  height: 18px;
+  background-color: #fff;
+}
+
+/*SERVICIOS*/
+.servicios{
+  background-color: #FB7171 ;
+  margin-top: 0;
+  padding-left:15%;
+  padding-right: 15%;
+}
+.servicios h2{
+  color: #00CC9B;
+}
+.servicios .box3{
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  gap: 40px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.box3 div{
+  display: grid;
+  grid-template-columns: 100%;
+  margin: auto;
+  align-items: center;
+}
+.box3 img{
+  margin: auto;
+}
+/*PORTAFOLIO*/
+.portafolio{
+  background-color: #FFD233 ;
+  margin-top: 0;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 50px;
+  color:
+  #8402A5;
+}
+.portafolio .box4{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 10px;
+}
+.box4 div{
+  margin: auto;
+  align-items: center;
+}
+
+/*CLIENTES*/
+.clientes{
+  background-color: #3F4E62 ;
+  color: #FF00C7;
+  margin-top: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 50px;
+}
+.clientes .box5{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/*CONTACTO*/
+.contacto{
+  background-color: #16A085 ;
+  margin-top: 0;
+  padding-bottom: 50PX;
+}
+.contacto .formulario{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap:20px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.contacto input{
+  padding: 20px;
+  border-radius: 5px;
+  border: 3px solid rgb(79, 179, 66);
+}
+.contacto textarea{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 20px;
+  border-radius: 5px;
+  border: 3px solid rgb(79, 179, 66);
+  height: 50px;
+  min-height: 50px;
+  max-width: 100%;
+}
+.contacto button{
+  margin-top: 20px;
+  margin-left: 45%;
+  width: 120px;
+  height: 45px;
+  color: #fff;
+  background-color:#233451 ;
+}
+
+/*FOOTER*/
+footer{
+  background-color: #00AAB5;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+footer div{
+  margin-top: 30px;
+  font-size: 12px;
+}
+
